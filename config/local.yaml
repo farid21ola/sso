@@ -1,0 +1,6 @@
+env: "local"
+connection_string: "postgres://postgres:admin@localhost:5432/sso?sslmode=disable"
+token_ttl: 1h
+grpc:
+  port: 44044
+  timeout: 10h
