@@ -1,0 +1,6 @@
+env: "prod"
+connection_string: "postgres://postgres:admin@db:5432/sso?sslmode=disable"
+token_ttl: 30m
+grpc:
+  port: 44044
+  timeout: 1m
